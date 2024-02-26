@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "hc's"
+name = "hhs-projecten"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["PepijnvdSteen <22094067@student.hhs.nl>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pandas = "^2.2.0"
+pandas = "^2.2.1"
 numpy = "^1.26.4"
 
 
