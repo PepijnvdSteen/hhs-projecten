@@ -37,26 +37,29 @@ def tuple_opslaan(item, tuple):
     tuple += (item, )
     return tuple
 
+print('\n--- DATA IN EEN DATASTRUCTUUR OPSLAAN ---')
+
 print(dict_opslaan('Hola', 32, namen_dict))
 print(list_opslaan(49494, namen_list))
 print(tuple_opslaan('Holle Bolle Gijs', namen_tuple))
 
-
 # DATA LEZEN
 def dict_return(naam, leeftijd_dict):
-    return leeftijd_dict.get(naam)
+    return f'De leeftijd van Bob is: {leeftijd_dict.get(naam)}'
 
 def list_return(aantal, list):
     for i in list:
         if list[i] == aantal:
-            return list[i]
+            return f'Aangeroepen item: {list[i]}, zit in de list op plek {i}'
 
 def tuple_return(input, tuple):
     lengte = len(tuple)
     for i in range(lengte):
         if tuple[i] == input:
-            return tuple[i]
+            return f'Aangeroepen item: {tuple[i]}, zit in de tuple op plek {i}'
+        
+print('\n--- DATA UIT EEN DATASTRUCTUUR LEZEN ---')
 
-print(f'De leeftijd van Bob is: {dict_return('Bob', namen_dict)}')
+print(dict_return('Bob', namen_dict))
 print(list_return(33, namen_list))
 print(tuple_return(20.5, namen_tuple))
