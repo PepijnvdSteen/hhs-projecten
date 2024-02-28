@@ -16,6 +16,7 @@ array3 = [67, 91, 60, 59, 7, 64, 75, 74, 11, 48, 47, 67, 33, 50, 24, 52, 44, 1, 
 print(f"Niet gesorteerd:\n Array 1: {array1}\n Array 2: {array2}\n Array 3: {array3}\n")
 
 ######################################################################
+
 def bubbleSort(arr):
     n = len(arr)
 
@@ -36,6 +37,7 @@ bubbleSort(array1)
 print(f"Bubble Sort: \n {array1} \n")
 
 ######################################################################
+
 def insertionSort(arr):
     n = len(arr)
 
@@ -56,6 +58,7 @@ insertionSort(array2)
 print(f"Insertion Sort: \n {array2} \n")
 
 #######################################################################
+
 def selectionSort(arr):
     n = len(arr)
 
