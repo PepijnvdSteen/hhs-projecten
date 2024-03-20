@@ -1,5 +1,8 @@
 from pathlib import Path
 from loguru import logger
+import pandas as pd
+import sqlite3
+import pypyodbc
 
 class Settings():
     basedir = Path.cwd()

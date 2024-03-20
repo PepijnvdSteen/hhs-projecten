@@ -1,7 +1,9 @@
-import processing
+import script
 
 def main() -> None:
-    processing.process()
+    script.insert_data()
+    script.surrogate_keys()
+
 
 if __name__ == "__main__":
     main()
