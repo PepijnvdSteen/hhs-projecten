@@ -2,7 +2,7 @@ from pathlib import Path
 from loguru import logger
 import pandas as pd
 import sqlite3
-import pypyodbc
+import pyodbc
 
 class Settings():
     basedir = Path.cwd()
@@ -13,7 +13,7 @@ class Settings():
     DB = {'servername': 'DESKTOP-P7DROCJ\\WINCCPLUSMIG2014',
       'database': 'datawarehouse'}
 
-    export_conn = pypyodbc.connect('DRIVER={SQL Server};SERVER=' + DB['servername'] + ';DATABASE=' + DB['database'] + ';Trusted_Connection=yes')
+    export_conn = pyodbc.connect('DRIVER={SQL Server};SERVER=' + DB['servername'] + ';DATABASE=' + DB['database'] + ';Trusted_Connection=yes')
 
     cursor = export_conn.cursor()
 

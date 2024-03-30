@@ -1,6 +1,6 @@
 # %%
 import pandas as pd
-import pypyodbc
+import pyodbc
 import sqlite3
 from settings import Settings as se, logger
 
@@ -23,7 +23,7 @@ def staff_sales_staff_insert():
         try:
             query = f"INSERT INTO STAFF_SALES_STAFF VALUES ({row['SALES_STAFF_CODE']}, '{row['FIRST_NAME']}', '{row['LAST_NAME']}', '{row['POSITION_EN']}', '{row['WORK_PHONE']}', '{row['EXTENSION']}', '{row['FAX']}', '{row['EMAIL']}', '{row['DATE_HIRED']}', {row['SALES_BRANCH_CODE']}, '{row['MANAGER_CODE']}', '{row['ADDRESS1']}', '{row['ADDRESS2']}', '{row['CITY']}', '{row['REGION']}', '{row['POSTAL_ZONE']}', {row['COUNTRY_CODE']}, '{row['COUNTRY']}', '{row['LANGUAGE']}', '{row['CURRENCY_NAME']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -37,7 +37,7 @@ def staff_sales_staff_sk():
     try:
         query = f"ALTER TABLE staff_sales_staff ADD SK_date INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -58,7 +58,7 @@ def satisfaction_type_insert():
         try:
             query = f"INSERT INTO SATISFACTION_TYPE VALUES ({row['SATISFACTION_TYPE_CODE']}, '{row['SATISFACTION_TYPE_DESCRIPTION']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -72,7 +72,7 @@ def satisfaction_type_sk():
     try:
         query = f"ALTER TABLE satisfaction_type ADD SK_date INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -90,7 +90,7 @@ def retailer_insert():
         try:
             query = f"INSERT INTO RETAILER VALUES ({row['RETAILER_CODE']}, '{row['RETAILER_CODEMR']}', '{row['COMPANY_NAME']}', {row['RETAILER_TYPE_CODE']}, '{row['RETAILER_TYPE_EN']}', '{row['RETAILER_NAME']}', '{row['ADDRESS1']}', '{row['ADDRESS2']}', '{row['CITY']}', '{row['REGION']}', '{row['POSTAL_ZONE']}', '{row['COUNTRY_CODE']}', '{row['PHONE']}', '{row['FAX']}', '{row['SEGMENT_CODE']}', '{row['LANGUAGE']}', '{row['SEGMENT_NAME']}', '{row['SEGMENT_DESCRIPTION']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -104,7 +104,7 @@ def retailer_sk():
     try:
         query = f"ALTER TABLE retailer ADD SK_date INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -122,7 +122,7 @@ def return_reason_insert():
         try:
             query = f"INSERT INTO RETURN_REASON VALUES ({row['RETURN_REASON_CODE']}, '{row['RETURN_DESCRIPTION_EN']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -136,7 +136,7 @@ def return_reason_sk():
     try:
         query = f"ALTER TABLE return_reason ADD SK_return_reason INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -154,7 +154,7 @@ def sales_retailer_site_insert():
         try:
             query = f"INSERT INTO SALES_RETAILER_SITE VALUES ({row['RETAILER_SITE_CODE']}, {row['RETAILER_CODE']}, '{row['ADDRESS1']}', '{row['ADDRESS2']}', '{row['CITY']}', '{row['REGION']}', '{row['POSTAL_ZONE']}', {row['COUNTRY_CODE']}, '{row['ACTIVE_INDICATOR']}', '{row['COUNTRY']}', '{row['LANGUAGE']}', '{row['CURRENCY_NAME']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -169,7 +169,7 @@ def sales_retailer_site_sk():
     try:
         query = "ALTER TABLE SALES_RETAILER_SITE ADD SK_sales_retailer_site INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
             print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -189,7 +189,7 @@ def course_insert():
         try:
             query = f"INSERT INTO course VALUES ({row['COURSE_CODE']}, '{row['COURSE_DESCRIPTION']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -204,7 +204,7 @@ def course_sk():
     try:
         query = f"ALTER TABLE course ADD SK_course INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -224,7 +224,7 @@ def product_insert():
         try:
             query = f"INSERT INTO PRODUCT VALUES ({row['PRODUCT_NUMBER']}, '{row['INTRODUCTION_DATE']}', {row['PRODUCT_TYPE_CODE']}, '{row['PRODUCTION_COST']}', '{row['MARGIN']}', '{row['PRODUCT_IMAGE']}', '{row['LANGUAGE']}', '{row['PRODUCT_NAME']}', '{row['DESCRIPTION']}', {row['PRODUCT_LINE_CODE']}, '{row['PRODUCT_TYPE_EN']}', '{row['PRODUCT_LINE_EN']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -238,7 +238,7 @@ def product_sk():
     try:
         query = f"ALTER TABLE product ADD SK_product INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -256,7 +256,7 @@ def order_method_insert():
         try:
             query = f"INSERT INTO ORDER_METHOD VALUES ({row['ORDER_METHOD_CODE']}, '{row['ORDER_METHOD_EN']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -270,7 +270,7 @@ def order_method_sk():
     try:
         query = f"ALTER TABLE order_method ADD SK_order_method INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -291,7 +291,7 @@ def sales_sales_staff_insert():
         try:
             query = f"INSERT INTO SALES_SALES_STAFF VALUES ({row['SALES_STAFF_CODE']}, '{row['FIRST_NAME']}', '{row['LAST_NAME']}', '{row['POSITION_EN']}', '{row['WORK_PHONE']}', {row['EXTENSION']}, '{row['FAX']}', '{row['EMAIL']}', '{row['DATE_HIRED']}', {row['SALES_BRANCH_CODE']}, '{row['ADDRESS1']}', '{row['ADDRESS2']}', '{row['CITY']}', '{row['REGION']}', '{row['POSTAL_ZONE']}', {row['COUNTRY_CODE']}, '{row['COUNTRY']}', '{row['LANGUAGE']}', '{row['CURRENCY_NAME']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -305,7 +305,7 @@ def sales_sales_staff_sk():
     try:
         query = f"ALTER TABLE sales_sales_staff ADD SK_sales_sales_staff INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -329,7 +329,7 @@ def order_data_insert():
         try:
             query = f"INSERT INTO ORDER_DATA VALUES ({row['ORDER_NUMBER']}, '{row['RETAILER_NAME']}', {row['RETAILER_SITE_CODE']}, {row['RETAILER_CONTACT_CODE']}, {row['SALES_STAFF_CODE']}, {row['SALES_BRANCH_CODE']}, '{row['ORDER_DATE']}', {row['ORDER_METHOD_CODE']}, '{row['ORDER_DETAIL_CODE']}', '{row['QUANTITY']}', '{row['UNIT_COST']}', '{row['UNIT_PRICE']}', '{row['UNIT_SALE_PRICE']}', '{row['RETURN_CODE']}', '{row['RETURN_DATE']}', '{row['RETURN_REASON_CODE']}', '{row['RETURN_QUANTITY']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -343,7 +343,7 @@ def order_data_sk():
     try:
         query = f"ALTER TABLE ORDER_DATA ADD SK_order_data INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -363,7 +363,7 @@ def sales_targetdata_insert():
         try:
             query = f"INSERT INTO sales_targetdata VALUES ({row['Id']}, '{row['SALES_STAFF_CODE']}', '{row['SALES_YEAR']}', '{row['SALES_PERIOD']}', '{row['RETAILER_NAME']}', '{row['PRODUCT_NUMBER']}', '{row['SALES_TARGET']}', '{row['RETAILER_CODE']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -377,7 +377,7 @@ def sales_targetdata_sk():
     try:
         query = f"ALTER TABLE sales_targetdata ADD SK_sales_targetdata INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -398,7 +398,7 @@ def date_insert():
         try:
             query = f"INSERT INTO date VALUES ('{row['DATE_YEAR']}', '{row['DATE_PERIOD']}', '{row['DATE_MONTH']}', '{row['DATE_DAY']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -413,7 +413,7 @@ def date_sk():
     try:
         query = f"ALTER TABLE date ADD SK_date INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -434,7 +434,7 @@ def training_insert():
         try:
             query = f"INSERT INTO training VALUES ({row['YEAR']}, {row['SALES_STAFF_CODE']}, {row['COURSE_CODE']})"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -450,7 +450,7 @@ def training_sk():
     try:
         query = f"ALTER TABLE training ADD SK_training INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -470,7 +470,7 @@ def satisfaction_insert():
         try:
             query = f"INSERT INTO satisfaction VALUES ('{row['YEAR']}', {row['SALES_STAFF_CODE']}, {row['SATISFACTION_TYPE_CODE']})"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -484,7 +484,7 @@ def satisfaction_sk():
     try:
         query = f"ALTER TABLE satisfaction ADD SK_satisfaction INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -504,7 +504,7 @@ def inventory_forecast_insert():
         try:
             query = f"INSERT INTO GO_SALES_INVENTORY_FORECASTDATA VALUES ('{row['INVENTORY_YEAR']}', '{row['INVENTORY_MONTH']}', '{row['PRODUCT_NUMBER']}', '{row['INVENTORY_COUNT']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -518,7 +518,7 @@ def inventory_forecast_sk():
     try:
         query = f"ALTER TABLE GO_SALES_INVENTORY_FORECASTDATA ADD SK_GO_SALES_INVENTORY_FORECASTDATA INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
@@ -538,7 +538,7 @@ def product_forecast_insert():
         try:
             query = f"INSERT INTO GO_SALES_PRODUCT_FORECASTDATA VALUES ('{row['PRODUCT_NUMBER']}', '{row['YEAR']}', '{row['MONTH']}', '{row['EXPECTED_VOLUME']}')"
             se.cursor.execute(query)
-        except pypyodbc.Error as e:
+        except pyodbc.Error as e:
             print(f"Error inserting row {index}: {e}")
 
     se.export_conn.commit()
@@ -552,7 +552,7 @@ def product_forecast_sk():
     try:
         query = f"ALTER TABLE GO_SALES_PRODUCT_FORECASTDATA ADD SK_GO_SALES_PRODUCT_FORECASTDATA INT IDENTITY(1,1) NOT NULL PRIMARY KEY, Timestamp DATETIME NOT NULL DEFAULT(GETDATE())"
         se.cursor.execute(query)
-    except pypyodbc.Error as e:
+    except pyodbc.Error as e:
         print(f"Error inserting row: {e}")
 
     se.export_conn.commit()
