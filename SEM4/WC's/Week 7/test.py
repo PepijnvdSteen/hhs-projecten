@@ -33,7 +33,7 @@ class MyWindow(QWidget):
 
     def sendData(self):
         # Simulate sending data from code
-        response = ollama.chat(model='llama2', messages=[
+        response = ollama.chat(model='gemma', messages=[
           {
             'role': 'user',
             'content': self.edit.text(),
