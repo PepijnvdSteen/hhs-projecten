@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/bin/Debug/net8.0/GPT
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/bin/Debug/net8.0/GPT.deps.json
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/bin/Debug/net8.0/GPT.runtimeconfig.json
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/bin/Debug/net8.0/GPT.dll
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/bin/Debug/net8.0/GPT.pdb
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.sourcelink.json
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.dll
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/refint/GPT.dll
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.pdb
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/GPT.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/Debug/net8.0/ref/GPT.dll
