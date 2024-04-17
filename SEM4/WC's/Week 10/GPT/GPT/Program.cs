@@ -1,6 +1,4 @@
-﻿using System;
-
-class NeuralNetwork
+﻿class NeuralNetwork
 {
     private double[] input;
     private double[] hiddenLayer;
@@ -155,7 +153,7 @@ class Program
         for (int i = 0; i < inputs.Length; i++)
         {
             double[] prediction = neuralNetwork.Predict(inputs[i]);
-            Console.WriteLine($"Input: [{string.Join(", ", inputs[i])}], Predicted: {prediction[0]}");
+            Console.WriteLine($"Input: [{string.Join(", ", inputs[i])}], Predicted: {Math.Round(prediction[0])}, Target:  [{string.Join(", ", targets[i])}]");
         }
     }
 }

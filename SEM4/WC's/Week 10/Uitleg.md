@@ -31,7 +31,3 @@
    - We define some example input-output pairs (`inputs` and `targets`) for training.
    - We train the neural network by repeatedly iterating over the training data and adjusting the weights.
    - After training, we test the network by predicting the outputs for the input data and printing the predictions.
-
-Overall, this code demonstrates a basic implementation of a feedforward neural network in C# without using 
-backpropagation or gradient descent for training. Instead, it relies on a simple error correction method to adjust the 
-weights based on the difference between predicted and target outputs.
