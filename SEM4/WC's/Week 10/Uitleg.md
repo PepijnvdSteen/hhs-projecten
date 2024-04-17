@@ -1,5 +1,3 @@
-Sure, let's break down the code step by step:
-
 1. **NeuralNetwork class**:
    - This class represents our neural network.
    - It contains fields to store input, hidden layer, and output values, as well as the weights between input 
