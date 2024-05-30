@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/GPT.csproj",
+      "projectUniqueName": "/Users/pep/development/hhs-projecten/SEM4/WC/Week 10/GPT/GPT/GPT.csproj",
       "projectName": "GPT",
-      "projectPath": "/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/GPT.csproj",
+      "projectPath": "/Users/pep/development/hhs-projecten/SEM4/WC/Week 10/GPT/GPT/GPT.csproj",
       "packagesPath": "/Users/pep/.nuget/packages/",
-      "outputPath": "/Users/pep/development/hhs-projecten/SEM4/WC's/Week 10/GPT/GPT/obj/",
+      "outputPath": "/Users/pep/development/hhs-projecten/SEM4/WC/Week 10/GPT/GPT/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/pep/.nuget/NuGet/NuGet.Config"
