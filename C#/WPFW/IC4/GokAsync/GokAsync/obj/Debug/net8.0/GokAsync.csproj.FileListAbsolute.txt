@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/bin/Debug/net8.0/GokAsync
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/bin/Debug/net8.0/GokAsync.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/bin/Debug/net8.0/GokAsync.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/bin/Debug/net8.0/GokAsync.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/bin/Debug/net8.0/GokAsync.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/refint/GokAsync.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/GokAsync.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC4/GokAsync/GokAsync/obj/Debug/net8.0/ref/GokAsync.dll

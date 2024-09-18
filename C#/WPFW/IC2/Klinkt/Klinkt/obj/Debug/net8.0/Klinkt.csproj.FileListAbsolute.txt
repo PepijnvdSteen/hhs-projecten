@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/bin/Debug/net8.0/Klinkt
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/bin/Debug/net8.0/Klinkt.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/bin/Debug/net8.0/Klinkt.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/bin/Debug/net8.0/Klinkt.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/bin/Debug/net8.0/Klinkt.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/refint/Klinkt.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/Klinkt.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/Klinkt/Klinkt/obj/Debug/net8.0/ref/Klinkt.dll

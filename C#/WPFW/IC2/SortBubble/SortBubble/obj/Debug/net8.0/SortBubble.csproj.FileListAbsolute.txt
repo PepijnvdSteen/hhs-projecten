@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/bin/Debug/net8.0/SortBubble
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/bin/Debug/net8.0/SortBubble.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/bin/Debug/net8.0/SortBubble.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/bin/Debug/net8.0/SortBubble.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/bin/Debug/net8.0/SortBubble.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/refint/SortBubble.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/SortBubble.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortBubble/SortBubble/obj/Debug/net8.0/ref/SortBubble.dll

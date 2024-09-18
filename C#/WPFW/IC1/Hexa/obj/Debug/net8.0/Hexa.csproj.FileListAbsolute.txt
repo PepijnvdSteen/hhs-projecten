@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/bin/Debug/net8.0/Hexa
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/bin/Debug/net8.0/Hexa.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/bin/Debug/net8.0/Hexa.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/bin/Debug/net8.0/Hexa.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/bin/Debug/net8.0/Hexa.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/refint/Hexa.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/Hexa.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC1/Hexa/obj/Debug/net8.0/ref/Hexa.dll

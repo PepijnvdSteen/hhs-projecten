@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/bin/Debug/net8.0/SortInsert
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/bin/Debug/net8.0/SortInsert.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/bin/Debug/net8.0/SortInsert.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/bin/Debug/net8.0/SortInsert.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/bin/Debug/net8.0/SortInsert.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/refint/SortInsert.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/SortInsert.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/SortInsert/SortInsert/obj/Debug/net8.0/ref/SortInsert.dll

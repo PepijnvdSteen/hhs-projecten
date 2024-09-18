@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/bin/Debug/net8.0/File
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/bin/Debug/net8.0/File.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/bin/Debug/net8.0/File.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/bin/Debug/net8.0/File.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/bin/Debug/net8.0/File.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/refint/File.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/File.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC2/File/File/obj/Debug/net8.0/ref/File.dll

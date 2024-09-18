@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/bin/Debug/net8.0/WordUp1
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/bin/Debug/net8.0/WordUp1.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/bin/Debug/net8.0/WordUp1.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/bin/Debug/net8.0/WordUp1.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/bin/Debug/net8.0/WordUp1.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/refint/WordUp1.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/WordUp1.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/IC3/WordUp1/WordUp1/obj/Debug/net8.0/ref/WordUp1.dll
