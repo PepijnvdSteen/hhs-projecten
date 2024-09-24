@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/bin/Debug/net8.0/Delers
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/bin/Debug/net8.0/Delers.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/bin/Debug/net8.0/Delers.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/bin/Debug/net8.0/Delers.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/bin/Debug/net8.0/Delers.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/refint/Delers.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/Delers.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets2/Delers/Delers/obj/Debug/net8.0/ref/Delers.dll

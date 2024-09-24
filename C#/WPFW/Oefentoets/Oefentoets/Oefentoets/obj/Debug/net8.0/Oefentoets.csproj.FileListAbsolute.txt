@@ -1,0 +1,15 @@
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/bin/Debug/net8.0/Oefentoets
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/bin/Debug/net8.0/Oefentoets.deps.json
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/bin/Debug/net8.0/Oefentoets.runtimeconfig.json
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/bin/Debug/net8.0/Oefentoets.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/bin/Debug/net8.0/Oefentoets.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.AssemblyInfoInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.AssemblyInfo.cs
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.csproj.CoreCompileInputs.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.sourcelink.json
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/refint/Oefentoets.dll
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.pdb
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/Oefentoets.genruntimeconfig.cache
+/Users/pep/development/hhs-projecten/C#/WPFW/Oefentoets/Oefentoets/Oefentoets/obj/Debug/net8.0/ref/Oefentoets.dll

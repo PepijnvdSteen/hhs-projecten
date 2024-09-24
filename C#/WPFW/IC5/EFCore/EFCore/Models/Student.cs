@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EFCore.ORM;
+namespace EFCore.Models;
 
 public class Student : User
 {
@@ -9,6 +9,8 @@ public class Student : User
   public String Name {get; private set;}
   [Column("Grades")] public List<Grade> Grades { get; set; } = new List<Grade>();
   public String Email {get; private set;}
+
+  public List<Teacher> teachers { get; set; }
 
   public Student(String name, String email) : base(email)
   {

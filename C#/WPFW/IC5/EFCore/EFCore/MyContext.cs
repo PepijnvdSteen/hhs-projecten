@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace EFCore.ORM;
+namespace EFCore.Models;
 
 public class MyContext : DbContext
 {

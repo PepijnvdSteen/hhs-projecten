@@ -1,4 +1,4 @@
-namespace EFCore.ORM;
+namespace EFCore.Models;
 
 public class User
 {
