@@ -14,6 +14,7 @@ public class MyContext : DbContext
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
     base.OnModelCreating(modelBuilder);
+      
     modelBuilder.Entity<Student>()
       .Property(s => s.Name)
       .IsRequired()
